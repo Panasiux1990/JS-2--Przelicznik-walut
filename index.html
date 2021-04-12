@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="Marcin Panasiuk" content="SitePoint">
+    <title>Project Java 2- Przelicznik walut</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/47928aa674.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+ </head>
+  <body>
+    <div class="container">
+         <div class="header">
+          <img src='https://www.ue.katowice.pl/typo3temp/_processed_/csm_NBP_079446ab8a.jpg'/>
+            <h1>Przelicznik walut</h1>
+        </div>
+    </div>
+    <div class="container-przel">
+        <input id="input" placeholder="0" value=1>
+        <select id="currencies">
+            <option value="CHF">CHF</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+        
+      <button id="button" type="button">Przelicz!</button>
+      <p id="endresult"></p>
+      
+    </div>
+    <script src="app.js"></script>   
+  </body>
+</html>
